@@ -11,5 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@ti-ui/components": "workspace:^",
+    "@ti-ui/theme-chalk": "workspace:^",
+    "@ti-ui/utils": "workspace:^"
   }
 }

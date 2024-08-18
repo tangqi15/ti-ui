@@ -7,6 +7,16 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@ti-ui/components':
+        specifier: workspace:^
+        version: link:packages/components
+      '@ti-ui/theme-chalk':
+        specifier: workspace:^
+        version: link:packages/theme-chalk
+      '@ti-ui/utils':
+        specifier: workspace:^
+        version: link:packages/utils
     devDependencies:
       typescript:
         specifier: ^5.5.4
