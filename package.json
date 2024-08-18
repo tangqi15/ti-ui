@@ -10,11 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "@ti-ui/components": "workspace:^",
     "@ti-ui/theme-chalk": "workspace:^",
-    "@ti-ui/utils": "workspace:^"
+    "@ti-ui/utils": "workspace:^",
+    "vue": "^3.3.4"
   }
 }
