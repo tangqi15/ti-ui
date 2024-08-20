@@ -2,7 +2,7 @@
   <div>
     <!-- 测试按钮组件 -->
     <div class="row">
-      <tiui-button></tiui-button>
+      <ti-button></ti-button>
     </div>
   </div>
 </template>

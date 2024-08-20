@@ -1,1 +1,1 @@
-declare module button
+// declare module button
