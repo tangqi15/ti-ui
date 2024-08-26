@@ -1,7 +1,6 @@
 // 该文件会导出一个工具方式。  用于 组件的安装
 
 import type{ App, Plugin } from 'vue';
-import { SFCParseResult } from 'vue/compiler-sfc';
 
 
 // 这里 定义了 一个 新的 SFCWithInstall 的类型

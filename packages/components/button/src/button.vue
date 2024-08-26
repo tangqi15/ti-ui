@@ -24,7 +24,7 @@
 import { defineComponent } from "vue";
 import { buttonProps } from "./button";
 export default defineComponent({
-  name: "TiuiButton",
+  name: "TiButton",
   props: buttonProps,
   emits: ["click"],
   setup(_, { emit }) {
