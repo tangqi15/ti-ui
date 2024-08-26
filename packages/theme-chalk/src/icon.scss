@@ -10,9 +10,8 @@
   font-style: normal;
 }
 
-// <i class="duyi-icon-ice-cream-round"></i>
-
-// duyi-icon
+// <i class="ti-icon-ice-cream-round"></i>
+// ti-icon
 [class*="#{$namespace}-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "element-icons" !important;
@@ -30,7 +29,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-// duyi-icon-ice-cream-round
+// ti-icon-ice-cream-round
 .#{$namespace}-icon-ice-cream-round:before {
   content: "\e6a0";
 }

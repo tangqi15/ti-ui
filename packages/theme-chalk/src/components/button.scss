@@ -1,7 +1,7 @@
 // button 组件所对应的样式
 @use "../mixins/mixins.scss" as *;
 
-// .duyi-button { ...}
+// .ti-button { ...}
 .#{$namespace}-button {
   display: inline-block;
   line-height: 1;
