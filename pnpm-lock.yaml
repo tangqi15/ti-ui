@@ -7,6 +7,7 @@ importers:
       '@ti-ui/components': workspace:^
       '@ti-ui/theme-chalk': workspace:^
       '@ti-ui/utils': workspace:^
+      '@tsconfig/node16': ^16.1.3
       '@vitejs/plugin-vue': ^5.1.2
       '@vue/test-utils': ^2.4.6
       '@vue/tsconfig': ^0.5.1
@@ -21,6 +22,7 @@ importers:
       '@ti-ui/utils': link:packages/utils
       vue: 3.4.38_typescript@5.5.4
     devDependencies:
+      '@tsconfig/node16': 16.1.3
       '@vitejs/plugin-vue': 5.1.2_vue@3.4.38
       '@vue/test-utils': 2.4.6
       '@vue/tsconfig': 0.5.1
@@ -818,6 +820,10 @@ packages:
 
   /@sinclair/typebox/0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
+    dev: true
+
+  /@tsconfig/node16/16.1.3:
+    resolution: {integrity: sha512-9nTOUBn+EMKO6rtSZJk+DcqsfgtlERGT9XPJ5PRj/HNENPCBY1yu/JEj5wT6GLtbCLBO2k46SeXDaY0pjMqypw==}
     dev: true
 
   /@tsconfig/node20/20.1.4:
