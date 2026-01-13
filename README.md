@@ -1,4 +1,4 @@
-# node 版本  16
+# node 版本  20
 
 # ti-ui
 UI组件库
@@ -17,7 +17,7 @@ monorepo   单仓多库
 
 
 搭建项目框架
-monorepo: 
+monorepo:  单仓多包
       pnpm + workspace 的方式来进行搭建
 
 
@@ -56,3 +56,6 @@ pnpm add @ti-ui/components @ti-ui/theme-chalk @ti-ui/utils -w
 
 
 ```
+
+
+  // pnpm -c === pnpm --dir
