@@ -1,2 +1,10 @@
 node_modules
-node_modules
+dist-compontent
+dist
+.history
+.vitecacheDir
+.bin/.temp_cache
+CLAUDE.md
+.DS_Store
+temp_cache
+.idea
